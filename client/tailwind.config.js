@@ -7,8 +7,17 @@ module.exports = {
     extend: {
       colors: {
         Red: '#ec1a30;',
-        bordergray:'#dedede',
-        backgroundgray:'#ececec;'
+        bordergray: '#dedede',
+        backgroundgray: '#ececec;'
+      },
+      keyframes: {
+        slide: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' }
+        }
+      },
+      animation: {
+        slide: 'slide 30s linear infinite'
       }
     }
 
