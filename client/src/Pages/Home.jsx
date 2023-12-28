@@ -8,6 +8,7 @@ import BrandsSlider from '../Components/BrandsSlider/BrandsSlider'
 import ProductList from '../Components/ProductsList/ProductList'
 import HomeCategory from '../Components/HomeCategory/HomeCategory'
 import PressLogos from '../Components/PressLogos/PressLogos'
+import Description from '../Components/Description/Description'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <ProductList/>
         <HomeCategory/>
         <PressLogos/>
+        <Description/>
     </div>
   )
 }
