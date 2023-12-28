@@ -7,6 +7,7 @@ import CategoriesSlider from '../Components/CategoriesSlider/CategoriesSlider'
 import BrandsSlider from '../Components/BrandsSlider/BrandsSlider'
 import ProductList from '../Components/ProductsList/ProductList'
 import HomeCategory from '../Components/HomeCategory/HomeCategory'
+import PressLogos from '../Components/PressLogos/PressLogos'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <BrandsSlider/>
         <ProductList/>
         <HomeCategory/>
+        <PressLogos/>
     </div>
   )
 }
