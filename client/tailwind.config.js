@@ -18,12 +18,16 @@ module.exports = {
         imageslider: {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-600%)' }
-
+        },
+        logoslider: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-840%)' }
         }
       },
       animation: {
         slide: 'slide 30s linear infinite',
-        imageslider: 'imageslider 30s infinite'
+        imageslider: 'imageslider 60s infinite',
+        logoslider:'logoslider 40s infinite'
       }
     }
 
