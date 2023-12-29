@@ -17,13 +17,13 @@ import spidermanmoraleshoodie from '../../Assets/ProductImages/HomeProductImages
 import wolverineoversized from '../../Assets/ProductImages/HomeProductImages/marvel-wolverine-violent-mutant-oversized-t-shirt-india-back.jpg'
 import captianamericaworthyhoodie from '../../Assets/ProductImages/HomeProductImages/marvel-captain-america-worthy-hoodie-india-back.jpg'
 import narutokakshicosplayjacket from '../../Assets/ProductImages/HomeProductImages/naruto-kakashi-cosplay-jacket-india.jpg'
-import spidermanmandalatshirt from '../../Assets/ProductImages/HomeProductImages/spider-mandala-t-shirt-india.jpg'
+import redwolflogohoodie from '../../Assets/ProductImages/HomeProductImages/redwolf-logo-hoodie-india.jpg'
 
 let HomePage = [
     {
-        image: narutohoodie,
-        name: 'Ichiraku Ramen Shop - Naruto Official ',
-        brand: 'Naruto',
+        image: redwolflogohoodie,
+        name: 'Redwolf Logo - Hoodie',
+        brand: 'Redwolf',
         newprice: 'Rs. 1,199',
         oldprice: 'Rs. 1,999'
     },
@@ -35,9 +35,9 @@ let HomePage = [
         oldprice: 'Rs. 699'
     },
     {
-        image: samuraihoodie,
-        name: 'Jack Jack - Samurai Jack Official Hoodie',
-        brand: 'Samurai Jack',
+        image: narutohoodie,
+        name: 'Ichiraku Ramen Shop - Naruto Official ',
+        brand: 'Naruto',
         newprice: 'Rs. 1,199',
         oldprice: 'Rs. 1,999'
     },
@@ -49,6 +49,20 @@ let HomePage = [
         oldprice: 'Rs. 899'
     },
     {
+        image: rickmortytshirt,
+        name: 'Ricks Opinion - Rick And Morty Official T',
+        brand: 'Rick And Morty',
+        newprice: 'Rs. 599',
+        oldprice: 'Rs. 699'
+    },
+    {
+        image: samuraihoodie,
+        name: 'Jack Jack - Samurai Jack Official Hoodie',
+        brand: 'Samurai Jack',
+        newprice: 'Rs. 1,199',
+        oldprice: 'Rs. 1,999'
+    },
+    {
         image: lokihoodie,
         name: 'Master Of Mischief - Marvel Official Hoo',
         brand: 'Marvel',
@@ -56,18 +70,18 @@ let HomePage = [
         oldprice: 'Rs. 1,999'
     },
     {
+        image: spidermanmoralesoversized,
+        name: 'Miles Morales: Urban - Marvel Official ',
+        brand: 'Marvel',
+        newprice: 'Rs. 799',
+        oldprice: 'Rs. 999'
+    },
+    {
         image: ironmanglowsweatshirt,
         name: 'Arc Reactor (Glow In The Dark) - Marvel ',
         brand: 'Marvel',
         newprice: 'Rs. 1,299',
         oldprice: 'Rs. 1,999'
-    },
-    {
-        image: rickmortytshirt,
-        name: 'Ricks Opinion - Rick And Morty Official T',
-        brand: 'Rick And Morty',
-        newprice: 'Rs. 599',
-        oldprice: 'Rs. 699'
     },
     {
         image: lionkinghoodie,
@@ -119,13 +133,6 @@ let HomePage = [
         oldprice: 'Rs. 1,999'
     },
     {
-        image: spidermanmoralesoversized,
-        name: 'Miles Morales: Urban - Marvel Official ',
-        brand: 'Marvel',
-        newprice: 'Rs. 799',
-        oldprice: 'Rs. 999'
-    },
-    {
         image: spidermanmoraleshoodie,
         name: 'Across The Spider-Verse: Miles Morales ',
         brand: 'Marvel',
@@ -153,13 +160,7 @@ let HomePage = [
         newprice: 'Rs. 1,499',
         oldprice: 'Rs. 1,999'
     },
-    {
-        image: spidermanmandalatshirt,
-        name: 'Spider Mandala - Marvel Official T-shirt',
-        brand: 'Marvel',
-        newprice: 'Rs. 549',
-        oldprice: 'Rs. 649'
-    }
+  
 ]
 
 export default HomePage;
