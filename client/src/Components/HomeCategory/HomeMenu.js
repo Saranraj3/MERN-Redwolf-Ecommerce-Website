@@ -92,7 +92,7 @@ let HomePage = [
     },
     {
         image: friendstshirt,
-        name: 'F.R.I.E.N.D.S Infographic - Friends Official T-shirt',
+        name: 'F.R.I.E.N.D.S Infographic-Friends Official',
         brand: 'Friends',
         newprice: 'Rs. 499',
         oldprice: 'Rs. 699'

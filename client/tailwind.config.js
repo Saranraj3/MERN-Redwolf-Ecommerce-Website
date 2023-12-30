@@ -8,7 +8,9 @@ module.exports = {
       colors: {
         Red: '#ec1a30;',
         bordergray: '#dedede',
-        backgroundgray: '#ececec;'
+        backgroundgray: '#ececec;',
+        LightBlack:'#191919;',
+        footercolor:'#787878;'
       },
       keyframes: {
         slide: {
