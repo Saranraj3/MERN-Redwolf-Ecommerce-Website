@@ -22,140 +22,140 @@ import redwolflogohoodie from '../../Assets/ProductImages/HomeProductImages/redw
 let HomePage = [
     {
         image: redwolflogohoodie,
-        name: 'Redwolf Logo - Hoodie',
+        name: 'Redwolf Logo - Hoodie ...',
         brand: 'Redwolf',
         newprice: 'Rs. 1,199',
         oldprice: 'Rs. 1,999'
     },
     {
         image: garfieldtshirt,
-        name: 'Normal Is Boring-Garfield Official T-shirt',
+        name: 'Normal Is Boring-Garfield ...',
         brand: 'Garfield',
         newprice: 'Rs. 599',
         oldprice: 'Rs. 699'
     },
     {
         image: narutohoodie,
-        name: 'Ichiraku Ramen Shop - Naruto Official ',
+        name: 'Ichiraku Ramen Shop Naru ... ',
         brand: 'Naruto',
         newprice: 'Rs. 1,199',
         oldprice: 'Rs. 1,999'
     },
     {
         image: harrypottertshirt,
-        name: 'Hogwarts Alumni - Harry Potter Official D',
+        name: 'Hogwarts Alumni - Harry ...',
         brand: 'Harry Potter',
         newprice: 'Rs. 649',
         oldprice: 'Rs. 899'
     },
     {
         image: rickmortytshirt,
-        name: 'Ricks Opinion - Rick And Morty Official T',
+        name: 'Ricks Opinion - Rick And ...',
         brand: 'Rick And Morty',
         newprice: 'Rs. 599',
         oldprice: 'Rs. 699'
     },
     {
         image: samuraihoodie,
-        name: 'Jack Jack - Samurai Jack Official Hoodie',
+        name: 'Jack Jack - Samurai Jack ...',
         brand: 'Samurai Jack',
         newprice: 'Rs. 1,199',
         oldprice: 'Rs. 1,999'
     },
     {
         image: lokihoodie,
-        name: 'Master Of Mischief - Marvel Official Hoo',
+        name: 'Master Of Mischief Loki ...',
         brand: 'Marvel',
         newprice: 'Rs. 1,299',
         oldprice: 'Rs. 1,999'
     },
     {
         image: spidermanmoralesoversized,
-        name: 'Miles Morales: Urban - Marvel Official ',
+        name: 'Miles Morales: Urban Mar ... ',
         brand: 'Marvel',
         newprice: 'Rs. 799',
         oldprice: 'Rs. 999'
     },
     {
         image: ironmanglowsweatshirt,
-        name: 'Arc Reactor (Glow In The Dark) - Marvel ',
+        name: 'Arc Reactor Glow Raditor ... ',
         brand: 'Marvel',
         newprice: 'Rs. 1,299',
         oldprice: 'Rs. 1,999'
     },
     {
         image: lionkinghoodie,
-        name: 'Hakuna Matata - Disney Official Hoodie',
+        name: 'Hakuna Matata - Disney ...',
         brand: 'Disney',
         newprice: 'Rs. 1,099',
         oldprice: 'Rs. 1,999'
     },
     {
         image: friendstshirt,
-        name: 'F.R.I.E.N.D.S Infographic-Friends Official',
+        name: 'F.R.I.E.N.D.S Infographic ...',
         brand: 'Friends',
         newprice: 'Rs. 499',
         oldprice: 'Rs. 699'
     },
     {
         image: narutofullsleeve,
-        name: 'Hidden Leaf Village - Naruto Official Full',
+        name: 'Hidden Leaf Village Narut ...',
         brand: 'Redwolf',
         newprice: 'Rs. 649',
         oldprice: 'Rs. 799'
     },
     {
         image: theexorcisthoodie,
-        name: 'Possessed - The Exorcist Official Hoodie',
+        name: 'Possessed - The Exorcist ...',
         brand: 'The Exorcist',
         newprice: 'Rs. 1,099',
         oldprice: 'Rs. 1,999'
     },
     {
         image: gawanstancyhoodie,
-        name: 'Spider-Gwen Suit - Marvel Official Hoodie',
+        name: 'Spider-Gwen Suit - Marvel ...',
         brand: 'Marvel',
         newprice: 'Rs. 1,499',
         oldprice: 'Rs. 1,999'
     },
     {
         image: batemanvengenacetshirt,
-        name: 'I Am Batman - Batman Official T-shirt',
+        name: 'I Am Batman Batman Tshir ...',
         brand: 'Dc Comics',
         newprice: 'Rs. 549',
         oldprice: 'Rs. 699'
     },
     {
         image: isrojacket,
-        name: 'ISRO: Space Cadet - ISRO Official Jacket',
+        name: 'ISRO: Space Cadet - ISRO ...',
         brand: 'ISRO',
         newprice: 'Rs. 1,299',
         oldprice: 'Rs. 1,999'
     },
     {
         image: spidermanmoraleshoodie,
-        name: 'Across The Spider-Verse: Miles Morales ',
+        name: 'Across The Spiderverse Ts ... ',
         brand: 'Marvel',
         newprice: 'Rs. 1,499',
         oldprice: 'Rs. 1,999'
     },
     {
         image: wolverineoversized,
-        name: 'Violent Mutant - Marvel Official Oversiz',
+        name: 'Violent Mutant Marvel Ove ...',
         brand: 'Marcel',
         newprice: 'Rs. 799',
         oldprice: 'Rs. 999'
     },
     {
         image: captianamericaworthyhoodie,
-        name: 'Worthy - Marvel Official Hoodie',
+        name: 'Worthy - Marvel Official ...',
         brand: 'Marvel',
         newprice: 'Rs. 1,499',
         oldprice: 'Rs. 1,999'
     },
     {
         image: narutokakshicosplayjacket,
-        name: 'Kakashi Cosplay - Naruto Official Jacket',
+        name: 'Kakashi Cosplay Naruto ...',
         brand: 'Naruto',
         newprice: 'Rs. 1,499',
         oldprice: 'Rs. 1,999'

@@ -24,28 +24,28 @@ import tom from '../../Assets/Logos/tom-and-jerry-logo-1.jpg'
 function LogoSlider() {
   return (
     <div className=' overflow-hidden whitespace-nowrap'>
-        <div className='animate-slide flex'>
-        <img className=' mr-7 h-14 w-23' src={batman} alt="" />
-        <img className=' mr-7 h-14 w-23'src={dc} alt="" />
-        <img className=' mr-7 h-14 w-23'src={harry} alt="" />
-        <img className=' mr-7 h-14 w-23'src={ben10} alt="" />
-        <img className=' mr-7 h-14 w-23'src={rick} alt="" />
-        <img className=' mr-7 h-14 w-23'src={game} alt="" />
-        <img className=' mr-7 h-14 w-23'src={deadpool} alt="" />
-        <img className=' mr-7 h-14 w-23'src={garfield} alt="" />
-        <img className=' mr-7 h-14 w-23'src={isro} alt="" />
-        <img className=' mr-7 h-14 w-23'src={superman} alt="" />
-        <img className=' mr-7 h-14 w-23'src={cartoon} alt="" />
-        <img className=' mr-7 h-14 w-23' src={friends} alt="" />
-        <img className=' mr-7 h-14 w-23'src={nasa} alt="" />
-        <img className=' mr-7 h-14 w-23'src={star} alt="" />
-        <img className=' mr-7 h-14 w-23'src={disney} alt="" />
-        <img className=' mr-7 h-14 w-23'src={tom} alt="" />
-        <img className=' mr-7 h-14 w-23'src={peanuts} alt="" />
-        <img className=' mr-7 h-14 w-23'src={spider} alt="" />
-        <img className=' mr-7 h-14 w-23'src={naruto} alt="" />
-        <img className=' mr-7 h-14 w-23'src={marvel} alt="" />
-        <img className=' mr-7 h-14 w-23'src={loki} alt="" />
+        <div className='sm:w-[18%] sm:gap-5 animate-slidesm flex'>
+        <img className='' src={batman} alt="" />
+        <img className=''src={dc} alt="" />
+        <img className=''src={harry} alt="" />
+        <img className=''src={ben10} alt="" />
+        <img className=''src={rick} alt="" />
+        <img className=''src={game} alt="" />
+        <img className=''src={deadpool} alt="" />
+        <img className=''src={garfield} alt="" />
+        <img className=''src={isro} alt="" />
+        <img className=''src={superman} alt="" />
+        <img className=''src={cartoon} alt="" />
+        <img className='' src={friends} alt="" />
+        <img className=''src={nasa} alt="" />
+        <img className=''src={star} alt="" />
+        <img className=''src={disney} alt="" />
+        <img className=''src={tom} alt="" />
+        <img className=''src={peanuts} alt="" />
+        <img className=''src={spider} alt="" />
+        <img className=''src={naruto} alt="" />
+        <img className=''src={marvel} alt="" />
+        <img className=''src={loki} alt="" />
         </div>
     </div>
   )

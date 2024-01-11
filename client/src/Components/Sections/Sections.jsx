@@ -10,45 +10,36 @@ import funky from '../../Assets/SectionPngs/featured-theme-funky.jpg'
 
 function Sections() {
     return (
-        <div>
-            <div className='container' >
-                <p className='mt-6 ml-16 text-center font-extrabold text-2xl text-gray-700'>FEATURED THEMES</p>
-                <div className='flex pl-20 mt-5 '>
-                    <div>
-                        <img src={anime} alt="" />
-                        <p className='text-sm ml-12' >ANIME</p>
-                    </div>
-                    <div>
-                        <img src={superhero} alt="" />
-                        <p className='text-sm ml-9'>SUPERHERO</p>
-                    </div>
-                    <div>
-                        <img src={glowindark} alt="" />
-                        <p className='text-sm ml-6' >GLOW IN DARK</p>
-                    </div>
-                    <div>
-                        <img src={cartoon} alt="" />
-                        <p className='text-sm ml-10'>CARTOON</p>
-                    </div>
-                    <div>
-                        <img src={slogan} alt="" />
-                        <p className='text-sm ml-14'>SLOGAN</p>
-                    </div>
-                    <div>
-                        <img src={funny} alt="" />
-                        <p className='text-sm ml-14'>FUNNY</p>
-                    </div>
-                    <div>
-                        <img src={geek} alt="" />
-                        <p className='text-sm ml-14'>GEEK</p>
-                    </div>
-                    <div>
-                        <img src={funky} alt="" />
-                        <p className='text-sm ml-14'>FUNKY</p>
+            <div>
+                <p className='sm:text-center sm:mt-6 font-extrabold text-nowrap text-2xl text-gray-700'>FEATURED THEMES</p>
+                    <div className='flex sm:animate-sectionslidersm sm:h-[7.4rem] sm:mt-2 ' >
+                        <img className=' ' src={anime} alt="" />
+                        <p className='sm:ml-[-5.2rem] sm:mt-[7rem] sm:text-sm ' >ANIME</p>
+
+                        <img className='sm:ml-11' src={superhero} alt="" />
+                        <p className='sm:text-sm sm:ml-[-6.5rem] sm:mt-[7rem] '>SUPERHERO</p>
+
+                        <img className='sm:ml-8 ' src={glowindark} alt="" />
+                        <p className='sm:text-sm sm:ml-[-7rem] sm:mt-[7rem] sm:text-nowrap ' >GLOW IN DARK</p>
+
+                        <img className='sm:ml-4' src={cartoon} alt="" />
+                        <p className='sm:text-sm sm:ml-[-6rem] sm:mt-[7rem] '>CARTOON</p>
+
+                        <img className='sm:ml-[2rem]' src={slogan} alt="" />
+                        <p className='sm:text-sm sm:ml-[-5.5rem] sm:mt-[7rem] '>SLOGAN</p>
+
+                        <img className='sm:ml-[2rem]' src={funny} alt="" />
+                        <p className='sm:text-sm sm:ml-[-5rem] sm:mt-[7rem]'>FUNNY</p>
+
+                        <img className='sm:ml-[2rem]' src={geek} alt="" />
+                        <p className='sm:text-sm sm:ml-[-5rem] sm:mt-[7rem] '>GEEK</p>
+
+                        <img className='sm:ml-[3rem]' src={funky} alt="" />
+                        <p className='sm:text-sm sm:ml-[-5.5rem] sm:mt-[7rem] '>FUNKY</p>
                     </div>
                 </div>
-            </div>
-        </div>
+            
+        
     )
 }
 

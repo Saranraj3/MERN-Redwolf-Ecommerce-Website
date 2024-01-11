@@ -14,17 +14,17 @@ function PressLogos() {
   return (
     <div>
       <p className='text-2xl font-extrabold text-center text-gray-700  mt-5'>PRESS</p>
-      <div className='flex  ml-8 '>
-        <img src={rollingstone} alt="" />
-        <img src={homegrown} alt="" />
-        <img src={hindustan} alt="" />
-        <img src={midday} alt="" />
-        <img src={theindianexpress} alt="" />
-        <img src={thenewindianexpress} alt="" />
-        <img src={stuff} alt="" />
-        <img src={mensxp} alt="" />
-        <img src={llb} alt="" />
-        <img src={theecnomictimes} alt="" />
+      <div className=' sm:animate-presslider flex  ml-8 '>
+        <img className='sm:ml-[2rem]' src={rollingstone} alt="" />
+        <img className='sm:ml-[8rem]' src={homegrown} alt="" />
+        <img className='sm:ml-[8rem]' src={hindustan} alt="" />
+        <img className='sm:ml-[8rem]' src={midday} alt="" />
+        <img className='sm:ml-[8rem]' src={theindianexpress} alt="" />
+        <img className='sm:ml-[8rem]' src={thenewindianexpress} alt="" />
+        <img className='sm:ml-[8rem]' src={stuff} alt="" />
+        <img className='sm:ml-[8rem]' src={mensxp} alt="" />
+        <img className='sm:ml-[8rem]' src={llb} alt="" />
+        <img className='sm:ml-[8rem]' src={theecnomictimes} alt="" />
       </div>
     </div>
   )

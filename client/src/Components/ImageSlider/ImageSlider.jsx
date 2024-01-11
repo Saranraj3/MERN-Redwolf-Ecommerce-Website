@@ -11,7 +11,7 @@ import womenTshirt from '../../Assets/BannerImageSlieder/t-shirts-for-women-home
 function ImageSlider() {
   return (
     <div className='overflow-hidden'>
-        <div className='flex animate-imageslider'>
+        <div className=' flex animate-imageslider'>
            <img src={drop} alt="" />
            <img src={naruto} alt="" />
            <img src={westlife} alt="" />
