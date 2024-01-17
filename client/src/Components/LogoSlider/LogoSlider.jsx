@@ -24,7 +24,7 @@ import tom from '../../Assets/Logos/tom-and-jerry-logo-1.jpg'
 function LogoSlider() {
   return (
     <div className=' overflow-hidden whitespace-nowrap'>
-        <div className='sm:w-[18%] sm:gap-5 animate-slidesm flex'>
+        <div className='md:w-[12%] md:animate-slidemd sm:w-[16%] sm:gap-5 animate-slidesm flex'>
         <img className='' src={batman} alt="" />
         <img className=''src={dc} alt="" />
         <img className=''src={harry} alt="" />

@@ -12,7 +12,7 @@ function Sections() {
     return (
             <div>
                 <p className='sm:text-center sm:mt-6 font-extrabold text-nowrap text-2xl text-gray-700'>FEATURED THEMES</p>
-                    <div className='flex sm:animate-sectionslidersm sm:h-[7.4rem] sm:mt-2 ' >
+                    <div className='flex md:animate-sectionslidermd sm:animate-sectionslidersm sm:h-[7.4rem] sm:mt-2 ' >
                         <img className=' ' src={anime} alt="" />
                         <p className='sm:ml-[-5.2rem] sm:mt-[7rem] sm:text-sm ' >ANIME</p>
 

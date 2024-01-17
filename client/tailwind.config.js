@@ -23,6 +23,10 @@ module.exports = {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-2000%)' }
         },
+        slidemd: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-1900%)' }
+        },
         imageslider: {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-600%)' }
@@ -33,7 +37,11 @@ module.exports = {
         },
         sectionslidersm: {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-100%)' }
+          to: { transform: 'translateX(-10%)' }
+        },
+        sectionslidermd: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-44%)' }
         },
         categoryslidersm: {
           from: { transform: 'translateX(0)' },
@@ -50,9 +58,11 @@ module.exports = {
       },
       animation: {
         slidesm: 'slidesm 28s linear infinite',
+        slidemd: 'slidemd 28s linear infinite',
         imageslider: 'imageslider 60s infinite',
         logoslider: 'logoslider 40s infinite',
         sectionslidersm:'sectionslidersm 30s infinite',
+        sectionslidermd:'sectionslidermd 18s infinite',
         categoryslidersm:'categoryslidersm 50s infinite',
         brandslidersm:'brandslidersm 16s infinite',
         presslider:'presslider 30s infinite',
