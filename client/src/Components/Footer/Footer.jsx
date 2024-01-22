@@ -61,13 +61,13 @@ function Footer() {
       <div>
         <h3 className='md:mt-[18rem] sm:mt-5 sm:text-center text-white '>Our site uses secure payment gateways. All major credit & debit cards accepted.</h3>
         <img className='sm:ml-[1rem] sm:mt-[2rem]' src={deliverytruck} alt="" />
-        <p className=' md:text-sm md:max-w-[6rem] sm:text-footercolor sm:mt-[-2rem] sm:ml-[4rem]  '>FREE SHIPPING ON ALL PREPAID ORDERS OVER Rs. 499</p>
-        <img className='md:mt-[-6rem] md:ml-[20rem] sm:ml-[1rem] sm:mt-[1rem]' src={indianruppe} alt="" />
-        <p className=' md:text-sm md:max-w-[6rem] md:ml-[23rem] sm:text-footercolor sm:mt-[-2rem] sm:ml-[4rem] '>CASH ON DELIVERY AVAILABLE TO MOST PARTS OF INDIA</p>
-        <img className='md:mt-[-6rem] md:ml-[35rem] sm:ml-[1rem] sm:mt-[1rem] ' src={boxorder} alt="" />
+        <p className=' md:text-sm md:max-w-[10rem] sm:text-footercolor sm:mt-[-2rem] sm:ml-[4rem]  '>FREE SHIPPING ON ALL PREPAID ORDERS OVER Rs. 499</p>
+        <img className='md:mt-[-4rem] md:ml-[20rem] sm:ml-[1rem] sm:mt-[1rem]' src={indianruppe} alt="" />
+        <p className=' md:text-sm md:max-w-[10rem]  md:ml-[23rem] sm:text-footercolor sm:mt-[-2rem] sm:ml-[4rem] '>CASH ON DELIVERY AVAILABLE TO MOST PARTS OF INDIA</p>
+        <img className='md:mt-[-4rem] md:ml-[35rem] sm:ml-[1rem] sm:mt-[1rem] ' src={boxorder} alt="" />
         <p className=' md:text-sm md:max-w-[7rem] md:ml-[38rem] sm:text-footercolor sm:mt-[-2rem] sm:ml-[4rem] ' >EASY 15 DAY RETURN POLICY</p>
       </div>
-      <div className='md:mt-[4rem] sm:w-full sm:h-3rem bg-gray-700 sm:mt-5 flex items-center justify-center'>
+      <div className='md:mt-[8rem] sm:w-full sm:h-3rem bg-gray-700 sm:mt-5 flex items-center justify-center'>
         <img className='sm:w-4' src={cicon} alt="" />
         <p className='text-white sm:text-sm sm:text-center'>2023 Redwolf, All Rights Reserved</p>
       </div>
