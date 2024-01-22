@@ -12,30 +12,30 @@ function Sections() {
     return (
             <div>
                 <p className='sm:text-center sm:mt-6 font-extrabold text-nowrap text-2xl text-gray-700'>FEATURED THEMES</p>
-                    <div className='flex lg:h-[8rem] sm:h-[7.4rem] sm:mt-2 ' >
+                    <div className='flex xl:gap-1 xl:justify-center xl:h-[9rem] lg:h-[8rem] sm:h-[7.4rem] sm:mt-2 ' >
                         <img  src={anime} alt="" />
-                        <p className='lg:mt-[8rem] sm:ml-[-5.2rem] sm:mt-[7rem] sm:text-sm ' >ANIME</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-6rem] lg:mt-[8rem] sm:ml-[-5.2rem] sm:mt-[7rem] sm:text-sm ' >ANIME</p>
 
                         <img className='sm:ml-11' src={superhero} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-6.5rem] sm:mt-[7rem] '>SUPERHERO</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-7rem] lg:mt-[8rem] sm:text-sm sm:ml-[-6.5rem] sm:mt-[7rem] '>SUPERHERO</p>
 
                         <img className='sm:ml-8 ' src={glowindark} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-7rem] sm:mt-[7rem] sm:text-nowrap ' >GLOW IN DARK</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-8rem] lg:mt-[8rem] sm:text-sm sm:ml-[-7rem] sm:mt-[7rem] sm:text-nowrap ' >GLOW IN DARK</p>
 
                         <img className='sm:ml-4' src={cartoon} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-6rem] sm:mt-[7rem] '>CARTOON</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-7rem] lg:mt-[8rem] sm:text-sm sm:ml-[-6rem] sm:mt-[7rem] '>CARTOON</p>
 
                         <img className='sm:ml-[2rem]' src={slogan} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-5.5rem] sm:mt-[7rem] '>SLOGAN</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-6rem] lg:mt-[8rem] sm:text-sm sm:ml-[-5.5rem] sm:mt-[7rem] '>SLOGAN</p>
 
                         <img className='sm:ml-[2rem]' src={funny} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-5rem] sm:mt-[7rem]'>FUNNY</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-6rem] lg:mt-[8rem] sm:text-sm sm:ml-[-5rem] sm:mt-[7rem]'>FUNNY</p>
 
                         <img className='sm:ml-[2rem]' src={geek} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-5rem] sm:mt-[7rem] '>GEEK</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-6rem] lg:mt-[8rem] sm:text-sm sm:ml-[-5rem] sm:mt-[7rem] '>GEEK</p>
 
                         <img className='sm:ml-[3rem]' src={funky} alt="" />
-                        <p className='lg:mt-[8rem] sm:text-sm sm:ml-[-5.5rem] sm:mt-[7rem] '>FUNKY</p>
+                        <p className='xl:mt-[9rem] xl:ml-[-6rem] lg:mt-[8rem] sm:text-sm sm:ml-[-5.5rem] sm:mt-[7rem] '>FUNKY</p>
                     </div>
                 </div>
             

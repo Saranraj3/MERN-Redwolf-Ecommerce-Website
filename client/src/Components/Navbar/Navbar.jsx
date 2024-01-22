@@ -21,21 +21,21 @@ const Navbar = () => {
         <img className=' 'src={smcart} alt="" />
       </div>
       <nav className='lg:mt-[-2.5rem] lg:visible sm:invisible flex'>
-        <p className='lg:h-[3rem] lg:pt-1 lg:text-2xl lg:text-center font-extrabold text-white bg-Red'>REDWOLF</p>
+        <p className='xl:w-[11rem] lg:h-[3rem] lg:pt-1 lg:text-2xl lg:text-center font-extrabold text-white bg-Red'>REDWOLF</p>
         <img className='lg:h-10 lg:ml-[-8rem] opacity-0 transition-opacity duration-300 transform hover:opacity-100' src={redwolftitlegif} alt="" />
-        <ul className='lg:mt-3 lg:ml-[5rem] lg:gap-1 lg:text-xs font-extrabold flex'>
+        <ul className='xl:ml-[3rem] xl:gap-4 xl:text-sm lg:mt-3 lg:ml-[5rem] lg:gap-1 lg:text-xs font-extrabold flex'>
           <li className='flex hover:text-Red'>SHOP<RiArrowDropDownLine className='lg:h-7 lg:w-7'/> </li>
           <li className='flex hover:text-Red'>MEN<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
           <li className='flex hover:text-Red'>WOMEN<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
-          <li className='lg:invisible flex hover:text-Red'>ACCESSORIES<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
-          <li className='lg:ml-[-7.3rem] flex hover:text-Red'>CHARACTERS<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
+          <li className='xl:visible lg:invisible flex hover:text-Red'>ACCESSORIES<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
+          <li className='xl:ml-0 lg:ml-[-7.3rem] flex hover:text-Red'>CHARACTERS<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
           <li className='flex hover:text-Red'>ARTISTMERCH<RiArrowDropDownLine className='lg:h-7 lg:w-7'/></li>
         </ul>
-        <div className='relative lg:mt-[-0.5rem] items-center flex'>
+        <div className='relative xl:ml-4 lg:mt-[-0.5rem] items-center flex'>
           <img className='lg:h-4 lg:ml-2 absolute ' src={search} alt="" />
-          <input className='lg:h-[2rem] lg:w-[79%] lg:pl-[2rem] lg:text-xs border border-bordergray placeholder-gray-500 bg-backgroundgray cursor-pointer rounded-md ' type="search" placeholder='Search for Products,Shows Or Characters' />
+          <input className='xl:w-[13rem] xl:text-sm lg:h-[2rem] lg:w-[79%] lg:pl-[2rem] lg:text-xs border border-bordergray placeholder-gray-500 bg-backgroundgray cursor-pointer rounded-md ' type="search" placeholder='Search for Products,Shows Or Characters' />
         </div>
-        <div className='lg:h-7 lg:mt-2 lg:right-0 lg:gap-5 divide-x flex'>
+        <div className='xl:ml-6 xl:gap-8 lg:h-7 lg:mt-2 lg:right-0 lg:gap-5 divide-x flex'>
           <img className='' src={icon} alt="" />
           <img className='' src={Location} alt="" />
           <img className='' src={User} alt="" />
