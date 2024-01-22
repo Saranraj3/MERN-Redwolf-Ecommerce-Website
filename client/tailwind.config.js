@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     screens:{
       sm:'200px',
-      md:'500px',
+      md:'768px',
       lg:'1020px',
       xl:'1200px',
     },
@@ -25,7 +25,7 @@ module.exports = {
         },
         slidemd: {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-1900%)' }
+          to: { transform: 'translateX(-1650%)' }
         },
         imageslider: {
           from: { transform: 'translateX(0)' },
@@ -35,37 +35,27 @@ module.exports = {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-840%)' }
         },
-        sectionslidersm: {
+        categoryslidermd: {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-10%)' }
+          to: { transform: 'translateX(-1080%)' }
         },
-        sectionslidermd: {
+        brandslidermd: {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-44%)' }
+          to: { transform: 'translateX(-100%)' }
         },
-        categoryslidersm: {
+        presslidermd: {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-1200%)' }
-        },
-        brandslidersm: {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-220%)' }
-        },
-        presslider: {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-450%)' }
+          to: { transform: 'translateX(-205%)' }
         },
       },
       animation: {
         slidesm: 'slidesm 28s linear infinite',
-        slidemd: 'slidemd 28s linear infinite',
+        slidemd: 'slidemd 13s linear infinite',
         imageslider: 'imageslider 60s infinite',
         logoslider: 'logoslider 40s infinite',
-        sectionslidersm:'sectionslidersm 30s infinite',
-        sectionslidermd:'sectionslidermd 18s infinite',
-        categoryslidersm:'categoryslidersm 50s infinite',
-        brandslidersm:'brandslidersm 16s infinite',
-        presslider:'presslider 30s infinite',
+        categoryslidermd:'categoryslidermd 50s infinite',
+        brandslidermd:'brandslidermd 16s infinite',
+        presslidermd:'presslidermd 30s infinite',
       },
     }
   },

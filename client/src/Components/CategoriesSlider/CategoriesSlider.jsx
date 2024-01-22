@@ -18,11 +18,11 @@ function CategoriesSlider() {
   return (
 
     <div>
-      <h1 className='sm:mt-[3.5rem] sm:text-center text-2xl font-extrabold  text-gray-700 mt-5' >FEATURED CATEGORIES</h1>
-      <p className='sm:text-[1.1rem] sm:text-center mt-1 font-light italic text-gray-700 '>Discover amazing designs by artists from all over the globe!</p>
+      <h1 className='sm:mt-[2rem] sm:text-center text-2xl font-extrabold  text-gray-700 ' >FEATURED CATEGORIES</h1>
+      <p className='sm:text-[1.1rem] sm:text-center sm:mt-1 font-light italic text-gray-700 '>Discover amazing designs by artists from all over the globe!</p>
 
       <div className='overflow-hidden'>
-        <div className='flex sm:animate-categoryslidersm sm:w-[15rem] sm:mt-5'>
+        <div className='flex md:animate-categoryslidermd sm:w-[15rem] sm:mt-5'>
           <img className='relative' src={featuredcategorytshirt} alt="" />
           <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded text-white absolute bg-Red'>T-SHIRTS</p>
           <img className='relative' src={oversizedTshirt} alt="" />

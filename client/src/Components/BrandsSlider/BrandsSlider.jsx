@@ -12,7 +12,7 @@ function BrandsSlider() {
         <div>
             <h1 className='text-2xl font-extrabold text-center text-gray-700 mt-5' >FEATURED BRANDS</h1>
             <div >
-                <div className='sm:animate-brandslidersm sm:gap-[5rem] sm:mt-5 flex '>
+                <div className='md:animate-brandslidermd sm:gap-[5rem] sm:mt-5 flex '>
                     <img className='sm:ml-[4rem]' src={marvel} alt="" />
                     <img src={dc} alt="" />
                     <img src={harrypotter} alt="" />
