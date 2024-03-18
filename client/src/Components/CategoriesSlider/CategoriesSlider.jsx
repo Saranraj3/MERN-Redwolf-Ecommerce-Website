@@ -1,4 +1,7 @@
 import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import featuredcategorytshirt from '../../Assets/Categories/featured-category-t-shirts-23.jpg'
 import oversizedTshirt from '../../Assets/Categories/featured-category-oversized-t-shirts-23.jpg'
 import femaltTshirt from '../../Assets/Categories/featured-category-female-t-shirt.jpg'
@@ -15,45 +18,88 @@ import baseballcap from '../../Assets/Categories/featured-category-baseball-caps
 import mask from '../../Assets/Categories/featured-category-masks-23.jpg'
 
 function CategoriesSlider() {
+  const settings = {
+    dots: false,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: false,
+};
   return (
 
-    <div>
-      <h1 className='sm:mt-[2rem] sm:text-center text-2xl font-extrabold  text-gray-700 ' >FEATURED CATEGORIES</h1>
+   <div>
+     <h1 className='sm:mt-[2rem] sm:text-center text-2xl font-extrabold  text-gray-700 ' >FEATURED CATEGORIES</h1>
       <p className='sm:text-[1.1rem] sm:text-center sm:mt-1 font-light italic text-gray-700 '>Discover amazing designs by artists from all over the globe!</p>
-
-      <div className='overflow-hidden'>
-        <div className='flex md:animate-categoryslidermd sm:w-[15rem] sm:mt-5'>
-          <img className='relative' src={featuredcategorytshirt} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded text-white absolute bg-Red'>T-SHIRTS</p>
-          <img className='relative' src={oversizedTshirt} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[6rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[15rem]'>OVERSIZED</p>
-          <img className='relative' src={femaltTshirt} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[9rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[30rem]'>WOMENSTSHIRTS</p>
-          <img className='relative' src={stickers} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[45rem]'>STICKERS</p>
-          <img className='relative' src={phonecase} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[8rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[60rem]' >MOBILECOVERS</p>
-          <img className='relative' src={coaster} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[75rem]'>COASTERS</p>
-          <img className='relative' src={socks} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[90rem]'>SOCKS</p>
-          <img className='relative' src={dropcutS} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[6rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[105rem]'>DROPCUTS</p>
-          <img className='relative' src={sweatshirts} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[7rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[120rem]'>SWEATSHIRTS</p>
-          <img className='relative' src={feamteoversized} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[9rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[135rem]'>FEMALEOVERSIZED</p>
-          <img className='relative' src={mugs} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[150rem]'>MUGS</p>
-          <img className='relative' src={poster} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[5rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[165rem]'>POSTERS</p>
-          <img className='relative' src={baseballcap} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[8rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[180rem]'>BASEBALLCAPS</p>
-          <img className='relative' src={mask} alt="" />
-          <p className='sm:font-extrabold sm:text-sm sm:w-[6rem] sm:h-[2rem] sm:text-center sm:pt-1 sm:rounded bg-Red text-white text-sm absolute ml-[195rem]'>FACEMASKS</p>
+          <div className=' p-2 m-[4rem]'>
+          <Slider {...settings} className='gap-y-2'>
+          <div className='relative'>
+          <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>T-SHIRTS</p>
+        <img className='' src={featuredcategorytshirt} alt="" />
         </div>
+        <div className='relative'>
+          <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>OVERSIZED</p>
+        <img className='' src={oversizedTshirt} alt="" />
+        </div>
+        <div className='relative'>
+          <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[12rem] rounded-md bg-red-600 text-white'>WOMEN'S T-SHIRTS</p>
+        <img className='' src={femaltTshirt} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>STICKERS</p>
+        <img className='' src={stickers} alt="" />
+         </div>
+         <div className='relative'>
+         <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[10rem] rounded-md bg-red-600 text-white'>MOBILE COVERS</p>
+        <img className='' src={phonecase} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>COASTERS</p>
+        <img className='' src={coaster} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>SOCKS</p>
+        <img className='' src={socks} alt="" />
+        </div>
+        </Slider>
       </div>
-    </div>
+      <div className='m-[4rem] mt-[-4.4rem]'>
+        <Slider {...settings} >
+      <div className='relative'>
+      <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>DROP CUTS</p>
+      <img className='' src={dropcutS} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[9rem] rounded-md bg-red-600 text-white'>SWEATSHIRTS</p>
+        <img className='' src={sweatshirts} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[18rem] rounded-md bg-red-600 text-white'>WOMEN'S OVERSIZED T-SHIRTS</p>
+        <img className='' src={feamteoversized} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>MUGS</p>
+        <img className='' src={mugs} alt="" />
+        </div>
+        <div className='relative'>
+        <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>POSTERS</p>
+        <img className='' src={poster} alt="" />
+         </div>
+         <div className='relative'>
+         <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[7rem] rounded-md bg-red-600 text-white'>BASEBALL CAPS</p>
+        <img className='' src={baseballcap} alt="" />
+          </div>
+          <div className='relative'>
+          <p className='absolute ml-2 mt-[16.5rem] text-lg text-center font-extrabold h-[2rem] w-[8rem] rounded-md bg-red-600 text-white'>FACE MASKS</p>
+        <img className='' src={mask} alt="" />
+          </div>
+          </Slider>
+      </div>
+
+       </div>
+  
 
   )
 }

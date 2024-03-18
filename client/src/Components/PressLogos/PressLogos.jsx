@@ -1,4 +1,7 @@
 import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import rollingstone from '../../Assets/Press/redwolf-rollingstone.jpg'
 import homegrown from '../../Assets/Press/redwolf-homegrown.jpg'
 import hindustan from '../../Assets/Press/redwolf-hindustan-times.jpg'
@@ -11,20 +14,52 @@ import llb from '../../Assets/Press/lbb-logo.jpg'
 import theecnomictimes from '../../Assets/Press/redwolf-economic-times.jpg'
 
 function PressLogos() {
+  const settings = {
+    dots: false,
+    speed: 500,
+    infinite: true,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+  };
   return (
-    <div>
+    <div className='am:overflow-x-hidden'>
       <p className='text-2xl font-extrabold text-center text-gray-700  mt-5'>PRESS</p>
-      <div className=' md:animate-presslidermd flex sm:gap-[7rem] '>
-        <img className='' src={rollingstone} alt="" />
-        <img className='' src={homegrown} alt="" />
-        <img className='' src={hindustan} alt="" />
-        <img className='' src={midday} alt="" />
-        <img className='' src={theindianexpress} alt="" />
-        <img className='' src={thenewindianexpress} alt="" />
-        <img className='' src={stuff} alt="" />
-        <img className='' src={mensxp} alt="" />
-        <img className='' src={llb} alt="" />
-        <img className='' src={theecnomictimes} alt="" />
+      <div className=' '>
+        <Slider className='overflow-x-hidden m-[4rem] ml-[5.5rem]' {...settings}>
+          <div>
+            <img src={rollingstone} alt="" />
+          </div>
+          <div>
+            <img src={homegrown} alt="" />
+          </div>
+          <div>
+            <img src={hindustan} alt="" />
+          </div>
+          <div>
+            <img src={midday} alt="" />
+          </div>
+          <div>
+            <img src={theindianexpress} alt="" />
+          </div>
+          <div>
+            <img src={thenewindianexpress} alt="" />
+          </div>
+          <div>
+            <img src={stuff} alt="" />
+          </div>
+          <div>
+            <img src={mensxp} alt="" />
+          </div>
+          <div>
+            <img src={llb} alt="" />
+          </div>
+          <div>
+            <img src={theecnomictimes} alt="" />
+          </div>
+        </Slider>
       </div>
     </div>
   )

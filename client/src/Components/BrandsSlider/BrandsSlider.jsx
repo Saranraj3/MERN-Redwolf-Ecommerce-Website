@@ -1,4 +1,7 @@
 import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import marvel from '../../Assets/BrandIcons/marvel.jpg'
 import dc from '../../Assets/BrandIcons/DC-comics.jpg'
 import harrypotter from '../../Assets/BrandIcons/harry-potter.jpg'
@@ -8,21 +11,66 @@ import peanuts from '../../Assets/BrandIcons/peanuts.jpg'
 import redwolfbasic from '../../Assets/BrandIcons/redwolf basics.jpg'
 
 function BrandsSlider() {
+    const settings = {
+        dots: false,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: false,
+    };
     return (
-        <div>
+
+        <div className='overflow-x-hidden '>
             <h1 className='text-2xl font-extrabold text-center text-gray-700 mt-5' >FEATURED BRANDS</h1>
-            <div >
-                <div className='md:animate-brandslidermd sm:gap-[5rem] sm:mt-5 flex '>
-                    <img className='sm:ml-[4rem]' src={marvel} alt="" />
+            <Slider className='overflow-x-hidden mt-5 m-[4rem] ml-[5.5rem]' {...settings}>
+                <div>
+                    <img className='' src={marvel} alt="" />
+                </div>
+                <div>
                     <img src={dc} alt="" />
+                </div>
+                <div>
                     <img src={harrypotter} alt="" />
+                </div>
+                <div>
                     <img src={rickanfmorty} alt="" />
+                </div>
+                <div>
                     <img src={garfield} alt="" />
+                </div>
+                <div>
                     <img src={peanuts} alt="" />
+                </div>
+                <div>
                     <img src={redwolfbasic} alt="" />
                 </div>
-            </div>
+                <div>
+                    <img className='' src={marvel} alt="" />
+                </div>
+                <div>
+                    <img src={dc} alt="" />
+                </div>
+                <div>
+                    <img src={harrypotter} alt="" />
+                </div>
+                <div>
+                    <img src={rickanfmorty} alt="" />
+                </div>
+                <div>
+                    <img src={garfield} alt="" />
+                </div>
+                <div>
+                    <img src={peanuts} alt="" />
+                </div>
+                <div>
+                    <img src={redwolfbasic} alt="" />
+                </div>
+            </Slider>
         </div>
+
     )
 }
 
