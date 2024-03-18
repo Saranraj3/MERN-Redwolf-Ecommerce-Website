@@ -42,7 +42,7 @@ const Navbar = () => {
           <img className='' src={Cart} alt="" />
         </div>
       </nav>
-      <hr className='sm:mt-[-3.1rem] '/>
+      <hr className='mt-[-0.6rem] '/>
     </div>
   )
 }

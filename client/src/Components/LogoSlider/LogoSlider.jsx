@@ -35,10 +35,11 @@ function LogoSlider() {
     autoplaySpeed: 3000,
     pauseOnHover: false,
   };
+
   return (
-    <div className=''>
-      <Slider {...settings} className='overflow-x-hidden w-[70rem] '>
-      <div className=''>
+    <div>
+      <Slider {...settings} className='overflow-x-hidden w-[80rem] ml-8 '>
+        <div className=''>
           <img className='pl-8' src={spiderman} alt="" />
         </div>
         <div className=''>
@@ -101,7 +102,6 @@ function LogoSlider() {
         <div>
           <img className='pl-8' src={peanuts} alt="" />
         </div>
-        
       </Slider>
     </div>
   )
