@@ -26,9 +26,9 @@ function PressLogos() {
   };
   return (
     <div className='am:overflow-x-hidden'>
-      <p className='text-2xl font-extrabold text-center text-gray-700  mt-5'>PRESS</p>
+      <p className='text-2xl font-extrabold text-center text-gray-700  mt-[-3rem]'>PRESS</p>
       <div className=' '>
-        <Slider className='overflow-x-hidden m-[4rem] ml-[5.5rem]' {...settings}>
+        <Slider className='overflow-x-hidden m-[4rem] mt-[1rem] ml-[5.5rem]' {...settings}>
           <div>
             <img src={rollingstone} alt="" />
           </div>

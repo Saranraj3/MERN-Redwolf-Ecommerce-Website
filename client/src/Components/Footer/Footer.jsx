@@ -10,9 +10,9 @@ import cicon from '../../Assets/FooterIcons/c-icon.png'
 
 function Footer() {
   return (
-    <div className=' box-border sm:mt-5 bg-LightBlack sm:w-[100%]'>
-      <p className='md:max-w-[22rem] md:text-left md:pl-[4rem] sm:text-sm text-center sm:text-footercolor sm:pt-[3rem] '>Subscribe to our Newsletter for updates and exclusive coupons & deals</p>
-      <div className='md:mt-[-5.5rem] md:ml-[13rem] md:text-center sm:mt-[-2rem]'>
+    <div className='box-border sm:mt-5 bg-LightBlack sm:w-[100%]'>
+      <p className='xl:max-w-[33rem] xl:ml-[-1rem] md:max-w-[22rem] md:text-left md:pl-[4rem] sm:text-sm text-center sm:text-footercolor sm:pt-[3rem]'>Subscribe to our Newsletter for updates and exclusive coupons & deals</p>
+      <div className=' md:mt-[-5.5rem] md:ml-[13rem] md:text-center sm:mt-[-2rem]'>
         <input className='md:w-[31%] md:h-[2rem] sm:ml-3 sm:mt-[3rem] sm:pl-2 sm:w-[95%] sm:h-[3rem] font-light sm:text-sm placeholder-footercolor rounded-md ' type="email" placeholder='Enter Your Email Address' name="" id="" />
         <button className='md:w-[16%] md:h-[2rem] sm:ml-3 sm:mt-5 sm:w-[95%] sm:h-[3rem] sm:text-sm font-extrabold  bg-Red text-white rounded-md ' type='submit'>Submit</button>
       </div>
@@ -43,11 +43,11 @@ function Footer() {
         <p className='  md:ml-[20rem] sm:ml-[3rem] sm:mt-3 sm:text-footercolor sm:text-sm' >Contact Us</p>
         <p className='  md:ml-[20rem] sm:ml-[2rem] sm:mt-1 sm:text-footercolor sm:text-sm'>Request A Return</p>
       </div>
-      <div className='md:mr-[-17rem]'>
+      <div className='xl:mr-[14rem]'>
         <h3 className='md:mt-[-4.7rem] md:text-center sm:text-right sm:mr-[3rem] sm:mt-[-4.5rem] sm:text-white sm:text-sm '>My Account</h3>
-        <p className='sm:text-right sm:mr-[3rem] sm:sm:text-footercolor sm:text-sm sm:mt-1  '>My Account</p>
-        <p className='sm:text-right sm:mr-[2.6rem] sm:text-footercolor sm:text-sm sm:mt-1  '>Order History</p>
-        <p className='sm:text-right sm:mr-[3rem] sm:text-footercolor sm:text-sm sm:mt-1 '>Newslatter</p>
+        <p className='md:text-center sm:text-right sm:mr-[3rem] sm:sm:text-footercolor sm:text-sm sm:mt-1  '>My Account</p>
+        <p className='md:text-center sm:text-right sm:mr-[2.6rem] sm:text-footercolor sm:text-sm sm:mt-1  '>Order History</p>
+        <p className='md:text-center sm:text-right sm:mr-[3rem] sm:text-footercolor sm:text-sm sm:mt-1 '>Newslatter</p>
       </div>
       <div >
         <h3 className=' sm:text-center sm:mt-[2rem] sm:text-sm text-white'>Social</h3>

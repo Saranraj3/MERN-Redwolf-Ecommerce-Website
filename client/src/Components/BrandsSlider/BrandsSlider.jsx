@@ -23,8 +23,8 @@ function BrandsSlider() {
     };
     return (
 
-        <div className='overflow-x-hidden '>
-            <h1 className='text-2xl font-extrabold text-center text-gray-700 mt-5' >FEATURED BRANDS</h1>
+        <div className='overflow-x-hidden mt-[-3rem] '>
+            <h1 className='text-2xl font-extrabold text-center text-gray-700' >FEATURED BRANDS</h1>
             <Slider className='overflow-x-hidden mt-5 m-[4rem] ml-[5.5rem]' {...settings}>
                 <div>
                     <img className='' src={marvel} alt="" />
