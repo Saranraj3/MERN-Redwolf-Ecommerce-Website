@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import anime from '../../Assets/SectionPngs/featured-theme-anime.jpg'
 import superhero from '../../Assets/SectionPngs/featured-theme-superhero.jpg'
 import glowindark from '../../Assets/SectionPngs/featured-theme-glow-in-dark.jpg'
@@ -13,7 +14,7 @@ function Sections() {
         <div>
             <p className='sm:text-center sm:mt-6 font-extrabold text-nowrap text-2xl text-gray-700'>FEATURED THEMES</p>
             <div className='flex xl:gap-1 xl:justify-center xl:h-[9rem] lg:h-[8rem] sm:h-[7.4rem] sm:mt-2 ' >
-                <img src={anime} alt="" />
+              <Link to='/anime-merchandise'><img className='xl:h-[9rem]' src={anime} alt="" /></Link>  
                 <p className='xl:mt-[9rem] xl:ml-[-6rem] lg:mt-[8rem] sm:ml-[-5.2rem] sm:mt-[7rem] sm:text-sm ' >ANIME</p>
 
                 <img className='sm:ml-11' src={superhero} alt="" />
