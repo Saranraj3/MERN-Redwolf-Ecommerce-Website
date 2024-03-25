@@ -2,14 +2,18 @@ import React from 'react'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import lollapalooza from '../../Assets/BannerImageSlieder/lollapalooza-merchandise-india-slider.jpg'
-import drop from '../../Assets/BannerImageSlieder/Drop-cut.jpg'
+import alpha from '../../Assets/BannerImageSlieder/redwolf-alpha-membership.jpg'
+import dtpromo from '../../Assets/BannerImageSlieder/dtg-promo.jpg'
+import dropcut from '../../Assets/BannerImageSlieder/dropcut-t-shirts-india.jpg'
+import fullsleeve from '../../Assets/BannerImageSlieder/fullsleeve-t-shirts.jpg'
+import oversized from '../../Assets/BannerImageSlieder/oversized-t-shirts.jpg'
 import naruto from '../../Assets/BannerImageSlieder/Naruto.jpg'
-import hoodie from '../../Assets/BannerImageSlieder/hoodies.jpg'
-import redwolf from '../../Assets/BannerImageSlieder/redwolf-t-shirts-homepage.jpg'
-import fullsleeve from '../../Assets/BannerImageSlieder/fullsleeves.jpg'
-import oversized from '../../Assets/BannerImageSlieder/oversized-tees.jpg'
-import womenTshirt from '../../Assets/BannerImageSlieder/t-shirts-for-women-homepage.jpg'
+import tshirt from '../../Assets/BannerImageSlieder/t-shirts-india.jpg'
+import xmen from '../../Assets/BannerImageSlieder/x-men-dp-wolverine.jpg'
+import hoodies from '../../Assets/BannerImageSlieder/hoodies-india.jpg'
+import womentshirt from '../../Assets/BannerImageSlieder/t-shirts-for-women.jpg'
+import basicpremium from '../../Assets/BannerImageSlieder/redwolf-basics.jpg'
+
 
 function ImageSlider() {
 
@@ -28,19 +32,13 @@ function ImageSlider() {
     <div className='overflow-x-hidden'>
       <Slider {...settings} className='overflow-x-hidden'>
         <div>
-          <img src={lollapalooza} alt="" />
+          <img src={alpha} alt="" />
         </div>
         <div>
-          <img src={drop} alt="" />
+          <img src={dtpromo} alt="" />
         </div>
         <div>
-          <img src={naruto} alt="" />
-        </div>
-        <div>
-          <img src={hoodie} alt="" />
-        </div>
-        <div>
-          <img src={redwolf} alt="" />
+          <img src={dropcut} alt="" />
         </div>
         <div>
           <img src={fullsleeve} alt="" />
@@ -49,7 +47,22 @@ function ImageSlider() {
           <img src={oversized} alt="" />
         </div>
         <div>
-          <img src={womenTshirt} alt="" />
+          <img src={naruto} alt="" />
+        </div>
+        <div>
+          <img src={tshirt} alt="" />
+        </div>
+        <div>
+          <img src={xmen} alt="" />
+        </div>
+        <div>
+          <img src={hoodies} alt="" />
+        </div>
+        <div>
+          <img src={womentshirt} alt="" />
+        </div>
+        <div>
+          <img src={basicpremium} alt="" />
         </div>
       </Slider>
     </div>
