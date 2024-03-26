@@ -29,7 +29,7 @@ function ImageSlider() {
   };
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className=' overflow-x-hidden'>
       <Slider {...settings} className='overflow-x-hidden'>
         <div>
           <img src={alpha} alt="" />
