@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className='xl:ml-6 xl:gap-8 lg:h-7 lg: lg:mt-2 lg:gap-8 divide-x flex'>
           <img className='cursor-pointer' src={icon} alt="" />
           <img className='cursor-pointer' src={Location} alt="" />
-          <img className='cursor-pointer' src={User} alt="" />
+          <Link to='/login'><img className='cursor-pointer' src={User} alt="" /></Link>
           <img className='cursor-pointer' src={Cart} alt="" />
         </div>
       </nav>
